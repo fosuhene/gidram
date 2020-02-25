@@ -172,7 +172,7 @@
                                           </tr>
 
                                           <tr>
-                                               <!--  <?php// echo lang('create_user_lname_label', 'last_name');?> --> <br />
+                                               <!--  <-?php// echo lang('create_user_lname_label', 'last_name');?> --> <br />
                                                 <input name="last_name" id="last_name" type="hidden" class="form-control">
                                           </tr>
                                           <?php
@@ -198,7 +198,7 @@
                                                 <?php echo lang('create_user_company_label', 'first_name');?> <br />
                                                 <select name="first_name" id="company" tabindex="1" class="form-control" data-show-subtext="true" data-live-search="true" selected="true" required="required">
                                                   <option>Client</option>
-                                                 <!--  <?php// echo $branchname;?> -->
+                                                 <!--  <-?php// echo $branchname;?> -->
                                                 </select>
                                           </tr>
 

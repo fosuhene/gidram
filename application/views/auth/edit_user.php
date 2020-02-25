@@ -21,7 +21,7 @@
                                             <!-- <p>
                                               <h5><strong> Update Photo - Upload</strong></h5>
                                               <div class="borderline">
-                                                <img id="churchlogo" src="<?php //echo base_url(); ?>/assets/images/post/<?php// echo $user->photo?>" style="width:160px; height: 120px"/>
+                                                <img id="churchlogo" src="<-?php //echo base_url(); ?>/assets/images/post/<-?php// echo $user->photo?>" style="width:160px; height: 120px"/>
                                                 <input type="file"  name="userfile" size="40"  id="churchlogo" accept="image/*" onchange="loadchurchlogo(event)"/>
                                               </div>
                                             </p> -->

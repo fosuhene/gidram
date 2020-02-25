@@ -903,6 +903,6 @@
 
 
 
-<!-- <script src="<?php// echo base_url(); ?>/assets/highcharts/highcharts-3d.js"></script>
+<!-- <script src="<-?php// echo base_url(); ?>/assets/highcharts/highcharts-3d.js"></script>
  -->
 <?php $this->load->view('components/charts'); ?>

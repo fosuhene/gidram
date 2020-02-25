@@ -11,7 +11,7 @@
                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                   <div class="input-group">
 					<!--?php echo anchor("tax/taxRegister","Add New",['class'=>'btn btn-primary btn-xs']);?-->
-                    <a href="<?php echo base_url(); ?>Tax/taxRegister" type="button" class="btn btn-primary btn-xs" value="Add New" data-toggle="tooltip" data-placement="top" title="Add New Tax Component" style="background:#12034c;color:#fff">
+                    <a href="<?php echo base_url(); ?>Tax/taxRegister" type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#exampleModal" value="Add New" data-toggle="tooltip" data-placement="top" title="Add New Tax Component" style="background:#12034c;color:#fff">
 					<i class="fa fa-plus-circle"></i> Add New
 					</a>
                     <!--span class="input-group-btn">
@@ -22,10 +22,10 @@
               </div> 
             </div>
 
-            <div class="clearfix"></div>
+            <!--div class="clearfix"></div>
 			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
-</button>
+</button-->
 			
 			
             <div class="row">
@@ -206,7 +206,7 @@
 					<div class="row">
 						<!--div class='col-sm-2'> </div-->	
 							<div class="col-sm-4 checkbox">
-								<label><input type="checkbox" class="flat" checked="checked" style="style="background:#12034c; color:#fff""> Activate Tax </label>
+								<label><input type="checkbox" class="flat" checked="checked" style="background:#12034c; color:#fff"> Activate Tax </label>
 							</div>
 							<div class='col-sm-8'></div>														
 					</div>

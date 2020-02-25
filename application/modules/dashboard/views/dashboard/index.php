@@ -7,7 +7,7 @@
           <div class="tile_count">
             <div class="col-md-2 col-sm-4  tile_stats_count">
                <div class="count"><?php if (isset($countTrans)) { echo $countTrans; } ?></div>
-              <div class="count"><?php if (isset($sTL)) { echo count($sTL); } ?><br/><?php if (isset($cTL)) { echo $cTL } ?></div>
+              <div class="count"><?php if (isset($sTL)) { echo count($sTL); } ?><br/><?php if (isset($cTL)) { echo $cTL; } ?></div>
               <span class="count_bottom"><i class="green">4% </i> From last Week</span>
             </div>
             <div class="col-md-2 col-sm-4  tile_stats_count">
